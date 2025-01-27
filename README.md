@@ -46,10 +46,10 @@ Em HTML, as tags definem os elementos que será utilizado e seu espçaço a ser 
 Elementos vazios nao precisam de corpo para serem exibidos na página, nesse sentido o conteúdo contido não precisa ser delcarado no documento, por isso o corpo é dispensado. Imagens e vídeos são considerados elementos vazios.
 
 4.
-a Os elementos vizinhos de <main> são <header> e <footer>.
+a Os elementos vizinhos de main são header e footer.
 
-b Os elementos ancestrais de <ul> são <nav>, <header>, <body> e <html>.
+b Os elementos ancestrais de ul são nav, header, body e html.
 
-c Os elementos filhos de <header> são <h1> e <nav>. 
+c Os elementos filhos de <header> são h1 e nav. 
 
-d A tag <html> é ancestral da tag <strong> e a tag <strong> é descendente da tag <html>.
+d A tag html é ancestral da tag strong e a tag strong é descendente da tag html.
