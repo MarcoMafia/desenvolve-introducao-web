@@ -53,4 +53,3 @@ b Quais elementos são os ancestrais de <ul> ? Os elementos ancestrais de <ul> s
 c Quais elementos são filhos de <header> ? Os elementos filhos de <header> são <h1> e <nav>. 
 
 d Qual o nível de profundidade do aninhamento entre <html> e <strong> do primeiro artigo? A tag <html> é ancestral da tag <strong> e a tag <strong> é descendente da tag <html>.
-
