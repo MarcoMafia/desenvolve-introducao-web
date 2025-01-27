@@ -54,4 +54,5 @@ Elementos vazios nao precisam de corpo para serem exibidos na página, nesse sen
 
    d. Qual o nível de profundidade do aninhamento entre <html> e <strong> do primeiro artigo? A tag <html> é ancestral da tag <strong> e a tag <strong> é descendente da tag <html>.
 
+]
 
