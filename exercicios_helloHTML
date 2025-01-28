@@ -1,3 +1,6 @@
 Exercícios - Hello HTML
 
 1. Cite as diferenças entre os elementos <head> e <body> de uma página HTML. Quando deve ser usado cada um?
+
+O elemento head contém configurações gerais que não são exibidas diretamente na página pelo navegador, seu uso pode ser associado à informações da página, estilização, fornecer informações externas ou para carregar o JavaScript.
+Do contrário, o elemento body contém todo o conteúdo visível e interativo da página, deve ser usado para exibir o conteúdo desejado, organizar a página e criar interação com o usuário.
