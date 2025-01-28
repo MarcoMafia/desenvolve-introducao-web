@@ -1,9 +1,3 @@
-# desenvolve-introducao-web
-Projeto Desenvolve - Itabira
-
-Introdução a Programação Web
-[PDITA390]
-
 Exercícios - Internet
 
 1.
