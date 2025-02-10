@@ -1,0 +1,20 @@
+html { font-size: 20px; }
+
+html h1 { font-size: 2rem; }
+
+h1 > .principal { font-size: 1.4em; }
+
+html .secundario { font-size: 1.4rem; }
+/*  
+h1: 40px
+.principal: 56px
+.secundario: 28px  
+*/
+
+/*  rgb(219, 78, 68)  */
+.cor255 {
+ color: rgb(251.85, 89.7, 78.2);
+}
+.cor0 {
+    color:rgb(186.15, 88.3, 58.2) ;
+}
