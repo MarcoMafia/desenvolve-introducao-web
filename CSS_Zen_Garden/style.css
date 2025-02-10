@@ -1,0 +1,22 @@
+html {
+    background: #F2F2F2;
+    color: #0D0D0D;
+}
+h1 {
+    color: #CC2031;
+}
+h2 {
+    color: #CC2031;
+}
+h3 { 
+    color: #CC2031;
+}
+
+a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:hover {
+    color: #dc3545;
+}
