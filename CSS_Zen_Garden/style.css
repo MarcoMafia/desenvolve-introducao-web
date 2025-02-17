@@ -1,7 +1,52 @@
 html {
     font-family: sans-serif;
     background: #F2F2F2;
-    color: #0D0D0D;
+    color: #000;
+    font-size: 18px;
+}
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#zen-intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+#zen-intro header {
+    background-color: #000;
+    color: #F2F2F2  ;
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+.main footer {
+    margin: 4%;
+}
+.main footer a {
+    border: solid 2px #000 ;
+    padding: 0.5em;
+    display: inline-block;
 }
 
 p {text-indent: 1em;}
@@ -9,18 +54,19 @@ p {text-indent: 1em;}
 .main p {line-height: 1.5;}
 abbr {font-variant: small-caps ;}
 
-h1, h2, h3 {text-align: left;}
+h1, h2 {
+    text-align: center;
+}
 h1 {
-    color: #CC2031;
     font-size: 1.8rem;
 }
 h2 {
-    color: #CC2031;
     font-size: 1.4rem;
 }
 h3 { 
     color: #CC2031;
     font-size: 1.2rem;
+    text-align: left;
 }
 
 a {
