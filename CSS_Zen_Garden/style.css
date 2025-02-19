@@ -18,27 +18,24 @@ html {
     position: relative;
 }
 
-#zen-intro {
-    height: 550px;
-}
-
 #design-archives {
     display: none;
 }
-
 #design-selection {
     position: absolute;
-    top: 542px;
+    top: 536px;
     left: 64% ;
     padding: 1%;
     padding-right: 1%;
+    font-size: 16px;
 }
-
+#zen-intro {
+    height: 550px;
+}
 #zen-intro header {
     background-color: #000;
     color: #F2F2F2  ;
 }
-
 #zen-intro header h1, #zen-intro header h2 {
     display: inline-block;
 }
@@ -47,14 +44,41 @@ html {
     margin-right: 1em;
 }
 
+.benefits {
+    display: flex;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+}
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+.benefits p {
+    flex-basis: 70%;
+}
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1 o;
+}
+.participation h3 {
+    align-self: center;
+}
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+
 aside ul {
     list-style-type: none;
 }
-
 aside ul li {
     margin: 1em;
     text-align: center;
 }
+
 .main footer {
     margin: 4%;
 }
@@ -64,8 +88,13 @@ aside ul li {
     display: inline-block;
 }
 
+.supporting footer {
+    display: flex;
+    justify-content: space-around;
+}
+
 p {text-indent: 1em;}
-.summary {text-align: right;}
+.summary, .summary p {text-align: right;}
 .main p {line-height: 1.5;}
 abbr {font-variant: small-caps ;}
 
@@ -82,6 +111,10 @@ h2 {
 h3 { 
     color: #CC2031;
     font-size: 1.2rem;
+    text-align: center;
+}
+
+p{
     text-align: left;
 }
 
