@@ -1,14 +1,21 @@
 html {
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
     background: #F2F2F2;
     color: #000;
     font-size: 18px;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #000 solid 1px;
+    padding-right: 2%;
 }
 
 .page-wrapper {
     width: 80%;
     max-width: 1280px;
     margin: auto;
+    position: relative;
 }
 
 #zen-intro {
@@ -17,6 +24,14 @@ html {
 
 #design-archives {
     display: none;
+}
+
+#design-selection {
+    position: absolute;
+    top: 542px;
+    left: 64% ;
+    padding: 1%;
+    padding-right: 1%;
 }
 
 #zen-intro header {
