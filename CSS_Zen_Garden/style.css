@@ -29,6 +29,16 @@ html {
     padding-right: 1%;
     font-size: 16px;
 }
+
+.design-selection li {
+    border-top: #000 solid 1px;
+    padding-top: 3px;
+}
+.design-selection li:last-of-type {
+    border-bottom: #000 solid 1px;
+    padding-bottom: 3px;
+}
+
 #zen-intro {
     height: 550px;
 }
@@ -95,8 +105,14 @@ aside ul li {
 
 p {text-indent: 1em;}
 .summary, .summary p {text-align: right;}
-.main p {line-height: 1.5;}
 abbr {font-variant: small-caps ;}
+
+.main p {line-height: 1.5;}
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+    font-family: 'Helvetica Neue', sans-serif;
+    float: left;
+}
 
 h1, h2 {
     text-align: center;
@@ -119,10 +135,10 @@ p{
 }
 
 a {
-    color: #000;
+    color: #dc3545;
     cursor: pointer;
     text-decoration: underline;
 }
 a:hover {
-    color: #dc3545;
+    color: #6c757d88    ;
 }
